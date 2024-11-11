@@ -3,6 +3,8 @@
 This is the source code for the website for Edinburgh Indie Gamers.
 Edinburgh Indie Gamers is a tabletop roleplaying club based in Edinburgh which specailises in indie roleplaying and story games.
 
+Web site hosted at https://edinburghindiegamers.github.io/
+
 ## Building the Site
 
 We needed a website to host information about the Club and to serve as a simple blog for the Club to use.
