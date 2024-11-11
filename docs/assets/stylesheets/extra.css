@@ -1,0 +1,92 @@
+/* Add Bangers comic-cook-style font for headings and menus. */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+.md-typeset h1, .md-typeset h2, .md-header__title, .md-tabs__link {
+  font-family: Bangers;
+}
+
+/* Revert tags to regular system font (as tags are rendered as h2 in the tags page and behaves like a heading above) */
+.md-typeset .md-tag {
+  font-family: var(--md-text-font-family),sans-serif;
+}
+
+/* Change header and navigation colour schemes on full screen site */
+.md-header, .md-tabs {
+  background-color: #ff6e42;
+}
+
+/* Make menu tabs bigger so it is legible in the new font. */
+.md-tabs__link {
+  font-size: 1rem;
+}
+
+/* Make site title bigger and clearer */
+.md-header__topic:first-child>span {
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+/* Reduce space between title and logo */
+.md-header__button.md-logo {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2rem;
+  width: 2rem;
+}
+[dir=ltr] .md-header__title {
+  margin-left: 0rem;
+}
+
+/* Add padding to some titles and nav items to prevent text from being clipped. */
+.md-header__topic:first-child>span, .md-header__topic>span {
+  padding-right: 5px;
+}
+
+/* Make alert/notice banner brighter */
+.md-banner {
+  color: hsla(0, 0%, 0%, 0.87);
+  background-color: hsla(60, 100%, 80%, 1);
+}
+
+/* Make admonition boxes bigger */
+.md-typeset .admonition,
+.md-typeset .details {
+  font-size: 16px
+}
+
+/* Fix width of blog post page */
+.md-content__inner {
+  width: 100%;
+}
+
+@media screen and (max-width: 76.2344em) {
+
+  /* Change menu drawer colour scheme */
+  .md-nav--primary .md-nav__title[for=__drawer], .md-nav--primary .md-nav__source {
+    background-color: #ff6e42;
+  }
+
+  /* Centre title and logo on the nav drawer */
+  .md-nav--primary .md-nav__title[for=__drawer] {
+    text-align: center;
+  }
+  .md-logo>img {
+    margin: auto;
+  }
+  
+  /* Change menu fonts for drawer nav menu */
+  .md-nav--primary .md-nav__title[for=__drawer], .md-nav--primary .md-nav__title, .md-nav--primary .md-nav__link {
+    font-family: Bangers;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+  /* Add padding to text to prevent clipping */
+  .md-nav__link>span {
+    padding-right: 5px;
+  }
+}
