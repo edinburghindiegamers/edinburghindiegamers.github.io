@@ -58,11 +58,6 @@
   font-size: 16px
 }
 
-/* Fix width of blog post page */
-.md-content__inner {
-  width: 100%;
-}
-
 @media screen and (max-width: 76.2344em) {
 
   /* Change menu drawer colour scheme */
