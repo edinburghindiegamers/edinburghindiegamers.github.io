@@ -11,13 +11,13 @@ plugins:
       draft: false
       draft_on_serve: false
       draft_if_future_date: true
-      post_date_format: EEE, d. MMM yyyy
+      post_date_format: EEE. d MMM. yyyy
   - git-committers:
       repository: edinburghindiegamers/edinburghindiegamers.github.io
       branch: main
   - git-revision-date-localized:
       type: custom
-      custom_format: "%d. %B %Y"
+      custom_format: "%d %B %Y"
   - rss:
       match_path: blog/posts/.* 
       date_from_meta:
