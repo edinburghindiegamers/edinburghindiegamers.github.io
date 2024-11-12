@@ -1,4 +1,4 @@
-const EVENTS_URL = 'http://eig.vsnt.uk/get_guild_events/'
+const EVENTS_URL = 'https://eig.vsnt.uk/get_guild_events/'
 const EVENTS_LISTING = document.getElementsByClassName('events-listing')[0]
 const request = new XMLHttpRequest()
 
