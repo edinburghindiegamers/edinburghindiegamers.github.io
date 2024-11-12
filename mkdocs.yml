@@ -37,9 +37,12 @@ theme:
   logo: assets/images/logo.svg
   icon:
     repo: fontawesome/brands/github
+    edit: material/pencil 
+    view: material/eye
   features:
     - announce.dismiss
     - content.action.edit
+    - content.action.view
     - content.tooltips
     - navigation.indexes
     - navigation.sections
