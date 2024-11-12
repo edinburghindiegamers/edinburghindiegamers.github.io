@@ -37,7 +37,7 @@ Community members must be supportive and kind.
 They should think about the impact of their words, the privilege they hold, and the relative position of those they interact with.
 As a community we prioritise marginalised people’s safety above privileged people’s comfort and will make all reasonable efforts to be inclusive.
 
-## Guidelines for Good Conduct
+## Expected Behaviour
 
 In order to exemplify these principles, participants in the Club are expected to follow these guidelines:
 

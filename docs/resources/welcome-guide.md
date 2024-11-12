@@ -90,7 +90,7 @@ But they have asked that our members **tidy up after themselves** when they are 
 Additionally, Shrub has a **[Safer Spaces Policy](https://res.cloudinary.com/shrub-co-op/image/upload/v1573736447/shrubcoop.org/media/SHRUB_Safer_Spaces_Policy_3.0_k1sjgv.pdf)** that they require people to abide by when using their space.
 Our Code of Conduct aligns with it, but it can be helpful to be familiar with it for good measure.
 
-## Needing Help
+## Getting Help
 
 If you need help with anything, if you need to raise any concerns about the event, or if you have any feedback for the Club, please feel free to speak to members of the Admin Team at the event.
 Alternatively, for more information on how to get in touch with the Club, please see our [Contact](../contact/index.md) page.
