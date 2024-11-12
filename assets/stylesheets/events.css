@@ -1,0 +1,61 @@
+.event-title {
+    font-family: Bangers;
+}
+
+.loading-container {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    align-items: center;
+}
+
+.loading-container>span {
+    height: fit-content;
+}
+
+.loading-indicator {
+    fill: var(--md-typeset-color);
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 1000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@-ms-keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@-o-keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
