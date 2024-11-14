@@ -1,3 +1,18 @@
+/* Change foreground colour */
+:root {
+  --md-primary-fg-color: #ff6e42;
+  --md-primary-fg-color--light: #ff8a66;
+  --md-primary-fg-color--dark: #f4511f;
+}
+
+/* Revert links to blue, different shade for dark mode */
+[data-md-color-scheme=default] {
+  --md-typeset-a-color: #4051b5;
+}
+[data-md-color-scheme=slate] {
+  --md-typeset-a-color: #5488e8;
+}
+
 /* Add Bangers comic-cook-style font for headings and menus. */
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 .md-typeset h1, .md-typeset h2, .md-header__title, .md-tabs__link {
@@ -7,11 +22,6 @@
 /* Revert tags to regular system font (as tags are rendered as h2 in the tags page and behaves like a heading above) */
 .md-typeset .md-tag {
   font-family: var(--md-text-font-family),sans-serif;
-}
-
-/* Change header and navigation colour schemes on full screen site */
-.md-header, .md-tabs {
-  background-color: #ff6e42;
 }
 
 /* Make menu tabs bigger so it is legible in the new font. */
@@ -59,11 +69,6 @@
 }
 
 @media screen and (max-width: 76.2344em) {
-
-  /* Change menu drawer colour scheme */
-  .md-nav--primary .md-nav__title[for=__drawer], .md-nav--primary .md-nav__source {
-    background-color: #ff6e42;
-  }
 
   /* Centre title and logo on the nav drawer */
   .md-nav--primary .md-nav__title[for=__drawer] {
