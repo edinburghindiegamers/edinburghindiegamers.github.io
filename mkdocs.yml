@@ -4,6 +4,7 @@ site_description: >-
 site_url: https://edinburghindiegamers.github.io/
 repo_name: GitHub Repo
 repo_url: https://github.com/edinburghindiegamers/edinburghindiegamers.github.io
+edit_uri: edit/main/docs/
 
 plugins:
   - blog:
