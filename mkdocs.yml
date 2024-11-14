@@ -15,6 +15,7 @@ plugins:
   - git-committers:
       repository: edinburghindiegamers/edinburghindiegamers.github.io
       branch: main
+      token: ${{ secrets.GITHUB_TOKEN }}
   - git-revision-date-localized:
       type: custom
       custom_format: "%d %B %Y"
