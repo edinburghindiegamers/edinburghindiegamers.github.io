@@ -26,4 +26,5 @@ A static site should also be quicker and more responsive.
 ## Maintaining and Updating the Site
 
 Most of the content on this site can be updated by editing the Markdown files in the `docs` directory of this repository.
+For more notes on how to maintain the site, see [maintenanche.md](maintenance.md).
 The deployment of the site has been automated using GitHub Actions to automatically update after a new commit is pushed to the repo.
