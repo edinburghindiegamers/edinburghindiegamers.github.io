@@ -65,7 +65,7 @@ We recognise that sometimes issues can arise with how our events and our Club ru
 If you have any concerns or complaints you would like to raise, please get in touch with the Admin Team.
 You can find more information on how to contact the Admin Team by following the link below:
 
-[:material-message-text: Contact the Admin Team](../contact/index.md){ .md-button }
+[:material-message-text: Contact the Admin Team](../contact/index.md){ .md-button .md-button--primary }
 
 The admin team will listen to any concerns members raise and will discuss with the member what steps the Club can take to address the issue going forward.
 

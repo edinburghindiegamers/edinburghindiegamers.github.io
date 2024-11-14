@@ -19,7 +19,7 @@ Discord is the Club's main on-line space.
 Member use this space to chat, organise private games, or even play on-line.
 Information and updates about future events are also posted on Discord.
 
-[:fontawesome-brands-discord: Join our Discord](https://discord.gg/6vNbsq5tSV){ .md-button .md-button--primary }
+[:fontawesome-brands-discord: Join our Discord](https://discord.gg/6vNbsq5tSV){ .md-button .md-button--discord }
 
 ## Coming Along for the First Time
 
@@ -95,4 +95,4 @@ Our Code of Conduct aligns with it, but it can be helpful to be familiar with it
 If you need help with anything, if you need to raise any concerns about the event, or if you have any feedback for the Club, please feel free to speak to members of the Admin Team at the event.
 Alternatively, for more information on how to get in touch with the Club, please see our [Contact](../contact/index.md) page.
 
-[:material-message-text: Contact the Admin Team](../contact/index.md){ .md-button }
+[:material-message-text: Contact the Admin Team](../contact/index.md){ .md-button .md-button--primary }

@@ -1,3 +1,9 @@
+/* Add Bangers comic-cook-style font for headings and menus. */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+.md-typeset h1, .md-typeset h2, .md-header__title, .md-tabs__link {
+  font-family: Bangers;
+}
+
 /* Change foreground colour */
 :root {
   --md-primary-fg-color: #ff6e42;
@@ -13,10 +19,28 @@
   --md-typeset-a-color: #5488e8;
 }
 
-/* Add Bangers comic-cook-style font for headings and menus. */
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-.md-typeset h1, .md-typeset h2, .md-header__title, .md-tabs__link {
-  font-family: Bangers;
+.md-typeset .md-button.md-button--discord {
+  border: .1rem solid;
+  border-radius: .1rem;
+  background-color: #5865F2;
+  border-color: #5865F2;
+  color: var(--md-primary-bg-color);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  padding: .625em 2em;
+  transition: color 125ms,background-color 125ms,border-color 125ms;
+}
+
+.md-typeset .md-button.md-button--discord:hover {
+  background-color: #5865f28f;
+  border-color: #5865f28f;
+  color: var(--md-accent-bg-color);
+}
+
+.md-typeset .md-button:hover {
+  background-color: var(--md-primary-fg-color--dark);
+  border-color: var(--md-primary-fg-color--dark);
 }
 
 /* Revert tags to regular system font (as tags are rendered as h2 in the tags page and behaves like a heading above) */

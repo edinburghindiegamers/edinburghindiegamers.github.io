@@ -98,7 +98,7 @@ Such bad faith actions include, but are not limited to:
 If you experience disrespectful or harassing behaviour by a member of the community, notice that someone else is being disrespected or harassed, or have any other concerns, please immediately contact one of the Admin Team.
 You can find more information on how to contact the Admin Team by following the link below:
 
-[:material-message-text: Contact the Admin Team](../contact/index.md){ .md-button }
+[:material-message-text: Contact the Admin Team](../contact/index.md){ .md-button .md-button--primary }
 
 ## Enforcement and Consequences
 

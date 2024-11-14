@@ -14,7 +14,7 @@ Member use this space to chat, organise private games, or even play on-line.
 Information and updates about future events are also posted on Discord.
 Please see our [rules for Discord membership](rules.md#discord-membership) on who is eligible to join.
 
-[:fontawesome-brands-discord: Join our Discord](https://discord.gg/6vNbsq5tSV){ .md-button .md-button--primary }
+[:fontawesome-brands-discord: Join our Discord](https://discord.gg/6vNbsq5tSV){ .md-button .md-button--discord }
 
 ## The Admin Team
 
