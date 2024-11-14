@@ -1,7 +1,6 @@
 ---
 hide:
   - navigation
-  # - toc
 icon: material/calendar-text
 ---
 
