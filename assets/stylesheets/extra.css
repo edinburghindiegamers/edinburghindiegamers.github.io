@@ -43,6 +43,11 @@
   border-color: var(--md-primary-fg-color--dark);
 }
 
+.md-top:focus, .md-top:hover {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-accent-bg-color);
+}
+
 /* Revert tags to regular system font (as tags are rendered as h2 in the tags page and behaves like a heading above) */
 .md-typeset .md-tag {
   font-family: var(--md-text-font-family),sans-serif;
